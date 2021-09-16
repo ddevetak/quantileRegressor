@@ -5,7 +5,6 @@
 The code illustrates approximately the main idea of a Decision Tree Regressor where the initial set is divided in multiple sub-sets. 
 
 ```
-
 import numpy as np
 import matplotlib.pyplot as plt
 from quantileRegressor import quantileRegressor
@@ -33,9 +32,6 @@ plt.legend(loc="lower right")
 plt.xlabel("x")
 plt.ylabel("y")
 plt.show()
-
-
-
 ```
 
 <img src="figure.png" width="600" height="400">

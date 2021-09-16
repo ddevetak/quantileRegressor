@@ -19,6 +19,7 @@ model2.fit(x, y)
 pred_y1 = model1.predict(x_test)
 pred_y2 = model2.predict(x_test)
 
+plt.figure(figsize=(5.9, 3.9))
 plt.scatter(x, y, label='Initial data')
 plt.plot(x_test, pred_y1, 'g', lw = 1, label = 'prediction nq = 10')
 plt.plot(x_test, pred_y2, 'r', lw = 2, label = 'prediction nq = 20')
@@ -26,8 +27,5 @@ plt.legend(loc="lower right")
 plt.xlabel("x")
 plt.ylabel("y")
 plt.show()
-
-
-
 
 

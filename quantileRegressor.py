@@ -13,7 +13,7 @@ class quantileRegressor:
     def fit(self, X, y):
              
        tempData = dict(zip(X, y))
-       xq = pd.qcut(x, self.n_quantiles)
+       xq = pd.qcut(X, self.n_quantiles)
        
        for interval in xq.categories:
             xx = [i for i in X if i in interval]

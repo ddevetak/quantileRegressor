@@ -35,4 +35,4 @@ plt.show()
 ```
 
 <img src="figure.png" width="600" height="400">
-<img src="https://github.com/ddevetak/quantileRegressor/blob/master/movie.gif" width="600" height="400">
+

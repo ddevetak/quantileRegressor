@@ -35,3 +35,4 @@ plt.show()
 ```
 
 <img src="figure.png" width="600" height="400">
+<img src="video.gif" width="600" height="400">
